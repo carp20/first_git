@@ -11,11 +11,13 @@ class HealthController {
     @GetMapping("/health")
     fun health(): HealthResponse = HealthResponse(
         status = "ok",
-        service = "guest-management-backend"
+        service = "guest-management-backend",
+        version = "1.0.0"
     )
 }
 
 data class HealthResponse(
     val status: String,
-    val service: String
+    val service: String,
+    val version: String
 )
