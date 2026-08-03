@@ -17,10 +17,10 @@ docker build -t guest-management-backend .
 docker run -p 8080:8080 guest-management-backend
 ```
 
-Проверка состояния:
+Проверить, что сервис поднялся:
 
 ```bash
-curl http://localhost:8080/api/health
+curl http://localhost:8080/api/health | jq
 ```
 
 Ожидаемый ответ:
