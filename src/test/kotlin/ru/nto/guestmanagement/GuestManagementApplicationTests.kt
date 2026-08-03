@@ -8,5 +8,6 @@ class GuestManagementApplicationTests {
 
     @Test
     fun contextLoads() {
+        println("var2: context loaded")
     }
 }
