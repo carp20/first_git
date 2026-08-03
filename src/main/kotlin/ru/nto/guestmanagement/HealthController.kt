@@ -9,10 +9,12 @@ import org.springframework.web.bind.annotation.RestController
 class HealthController {
 
     @GetMapping("/health")
-    fun health(): HealthResponse = HealthResponse(
-        status = "ok",
-        service = "guest-management-backend"
-    )
+    fun health(): HealthResponse {
+        return HealthResponse(
+            status = "ok",
+            service = "guest-management-backend"
+        )
+    }
 }
 
 data class HealthResponse(
