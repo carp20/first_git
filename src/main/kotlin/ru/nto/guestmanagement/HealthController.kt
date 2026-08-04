@@ -10,7 +10,7 @@ class HealthController {
 
     @GetMapping("/health")
     fun health(): HealthResponse = HealthResponse(
-        status = "ok",
+        status = "UP",
         service = "guest-management-backend"
     )
 }
