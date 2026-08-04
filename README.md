@@ -17,10 +17,10 @@ docker build -t guest-management-backend .
 docker run -p 8080:8080 guest-management-backend
 ```
 
-Проверка состояния:
+Health-check эндпоинт (пример через httpie):
 
 ```bash
-curl http://localhost:8080/api/health
+http GET localhost:8080/api/health
 ```
 
 Ожидаемый ответ:
