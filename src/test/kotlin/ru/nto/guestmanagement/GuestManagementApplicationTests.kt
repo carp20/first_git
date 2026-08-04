@@ -8,5 +8,6 @@ class GuestManagementApplicationTests {
 
     @Test
     fun contextLoads() {
+        // var3: context load smoke test
     }
 }
