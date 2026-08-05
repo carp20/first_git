@@ -31,3 +31,7 @@ curl http://localhost:8080/api/health
   "service": "guest-management-backend"
 }
 ```
+
+## Уведомления
+
+Сервис уведомлений находится в разработке.
