@@ -1,5 +1,7 @@
 # Guest Management Backend
 
+![version](https://img.shields.io/badge/version-1.1.0-blue)
+
 Минимальный backend на Spring Boot и Kotlin.
 
 ## Запуск
